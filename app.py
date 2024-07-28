@@ -6,6 +6,8 @@ from nltk.stem.porter import PorterStemmer
 import string
 import warnings
 from sklearn.exceptions import InconsistentVersionWarning
+nltk.download('stopwords')
+nltk.download('punkt')
 
 warnings.filterwarnings("ignore", category=InconsistentVersionWarning)
 
